@@ -1,0 +1,90 @@
+/* dashboard header sec */
+
+.dashboard-header {
+    background-color: #272A2D;
+    border-bottom: 5px solid #9AC802;
+    padding: 20px 20px 20px;
+}
+.nav-link {
+    font-weight: 500;
+    font-size: 12px;
+    border-radius: 4px!important;
+    padding: 3px 18px 5px !important;
+}
+.filled-link {
+    color: #000 !important;
+    background-color: #fff!important;
+    border: 1px solid #fff!important;
+    
+}
+
+.stroke-link {
+    background-color: transparent !important;
+    border: 1px solid #888 !important;
+    color: #fff !important;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.logo {
+    margin-right: 25px;
+}
+
+.dashboard-header .second-col .nav-item {
+    margin-right: 10px;
+}
+
+.dashboard-header .third-col {
+    justify-content: flex-end;
+    display: flex;
+}
+
+.dashboard-header .second-col {
+    justify-content: flex-end;
+    display: flex;
+}
+
+.dashboard-header .third-col img {
+    padding: 0 10px;
+}
+
+.dashboard-header .third-col .profile {
+    margin-left: 10px;
+}
+
+.link-wrap .filled-link {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0!important;
+}
+
+.link-wrap .stroke-link {
+    border-top-left-radius: 0!important;
+    border-bottom-left-radius: 0!important;
+}
+
+.notification-bar {
+    position: absolute;
+    background-color: #1C9DE8;
+    color: #fff;
+    border: 1px solid #1C9DE8;
+    border-radius: 50%;
+    padding: 3px;
+    top: 9px;
+    right: 28px;
+    width: 18px;
+    height: 18px;
+}
+
+.notification-bar h6 {
+    font-size: 10px;
+    margin-bottom: 0;
+    line-height: 9px;
+}
+
+@media all and (max-width: 767px) {
+    .notification-bar {
+        top: 13%;
+    }
+}

@@ -1,0 +1,118 @@
+img, svg {
+    padding: 0;
+}
+
+.stroked-btn, 
+.filled-btn  {
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 4px 15px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.stroked-btn {
+    color: #9ac802;
+    border: 1px solid #9ac802;
+    background-color: transparent;
+}
+
+.stroked-btn:hover {
+    background-color: #9ac802;
+    color: #000;
+}
+
+.filled-btn {
+    color: #000;
+    border: 1px solid #9ac802;
+    background-color: #9ac802;
+}
+.filled-btn:hover {
+    background-color: transparent;
+    border: 1px solid #9ac802;
+    color: #9ac802;
+}
+
+
+/* dashboard content right sec */
+
+.dashboard-content .right-sec {
+    background-color: #1E2122;
+    padding: 35px 30px;
+    width: 79%;
+}
+
+.dashboard-content .right-sec .wrap {
+    margin-right: 10px;
+}
+
+.dashboard-content .right-sec .first-col {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.dashboard-content .right-sec .second-col,
+.dashboard-content .right-sec .third-col {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.dashboard-content .right-sec h6 {
+    font-weight: 500;
+    font-size: 12px;
+    color: #666E79;
+    margin-bottom: 0;
+}
+
+.dashboard-content .right-sec h6 {
+    margin-right: 10px;
+}
+
+.dashboard-content .right-sec .content-head {
+    margin-bottom: 30px;
+}
+
+.dashboard-content .right-sec .content-head select {
+    background-color: transparent !important;
+    border: 1px solid #888 !important;
+    color: #fff !important;
+    font-size: 12px;
+    width: 150px;
+    padding: 5px 10px;
+
+}
+
+.dashboard-content .right-sec .content-head select option {
+    background: rgb(30 33 34)!important;
+    color: #fff;
+    text-shadow: 0 1px 0 rgb(30 33 34)!important;
+}
+
+.dashboard-content .right-sec .content-head select option:hover {
+    background-color: #9ac802!important;
+}
+
+.content-head .second-col a:first-of-type {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.content-head .second-col a:last-of-type {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+@media all and (max-width: 767px) {
+    .dashboard-content .right-sec {
+        width: 100%;
+    }
+    .dashboard-content .right-sec .second-col, 
+    .dashboard-content .right-sec .third-col {
+        justify-content: flex-start;
+        margin-bottom: 20px;
+    }
+    .dashboard-content .right-sec .first-col {
+        margin-bottom: 20px;
+    }
+}

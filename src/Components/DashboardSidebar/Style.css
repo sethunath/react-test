@@ -1,0 +1,137 @@
+.dashboard-content .left-sec {
+    background-color: #181B1C;
+    padding: 35px 30px;
+    width: 21%;
+}
+
+@media all and (max-width: 767px) {
+    .dashboard-content .left-sec {
+        width: 100%;
+    }
+}
+
+.dashboard-content .top-section {
+    border-bottom: 2px solid #272A2D;
+    padding-bottom: 30px;
+}
+
+.dashboard-content .head-sec {
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+
+.dashboard-content .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.dashboard-content .head-sec h5 {
+    color: #9AC802;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.dashboard-content .content-sec {
+    display: flex;
+    margin-top: 20px;
+}
+.dashboard-content .content-sec .data {
+    flex: 1;
+    text-align: left;
+}
+.dashboard-content .content-sec .data h6 {
+    
+    color: #666E79;
+    font-weight: 500;
+    font-size: 9px;
+    
+}
+
+.dashboard-content .content-sec .data h2 {
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.dashboard-content .content-sec .data h4 {
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.dashboard-content .middle-section {
+    padding: 30px 0;
+    border-bottom: 2px solid #272A2D;
+}
+
+.stroked-btn, 
+.filled-btn  {
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 4px 15px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.stroked-btn {
+    color: #9ac802;
+    border: 1px solid #9ac802;
+    background-color: transparent;
+}
+
+.stroked-btn:hover {
+    background-color: #9ac802;
+    color: #000;
+}
+
+.filled-btn {
+    color: #000;
+    border: 1px solid #9ac802;
+    background-color: #9ac802;
+}
+.filled-btn:hover {
+    background-color: transparent;
+    border: 1px solid #9ac802;
+    color: #9ac802;
+}
+
+
+.dashboard-content .bottom-section {
+    padding: 30px 0 30px;
+}
+
+.dashboard-content .bottom-section .content-sec {
+    align-items: center;
+}
+
+.dashboard-content .bottom-section .align-right {
+    text-align: right;
+}
+
+
+.dashboard-content .stroke-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #666E79 !important;
+    border: none !important;
+    background-color: transparent !important;
+}
+
+.dashboard-content .filled-link {
+    color: #000 !important;
+    background-color: #9ac802!important;
+    border: 1px solid #9ac802!important;
+}
+
+.dashboard-content .nav-link{
+    border-radius: 4px!important;
+    padding: 3px 12px 5px !important;
+}
+.dashboard-content .nav-pills {
+    margin: 30px 0 20px -15px;
+}
